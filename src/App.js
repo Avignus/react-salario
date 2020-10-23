@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 import './App.css';
-import { createMuiTheme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,7 +23,6 @@ function App() {
   const [valueIRRF, setIRRF] = useState(0);
   const [baseINSS, setBaseINSS] = useState('');
   const [baseIRRF, setBaseIRRF] = useState('');
-  const [baseValue, setBaseValue] = useState(0);
   const [percentageBase, setPercentageBase] = useState(0);
   const [percentageIRRF, setPercentageIRRF] = useState(0);
   const [liquid, setLiquid] = useState(0);
