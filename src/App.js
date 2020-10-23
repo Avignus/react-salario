@@ -242,7 +242,7 @@ function App() {
             <TextField
               value={`R$ ${liquid} (${liquidPercentage}%)`}
               id="standard-full-width"
-              label="IRRF"
+              label="Salário líquido"
               style={{ margin: 8 }}
               placeholder="Placeholder"
               helperText="Calculado"
